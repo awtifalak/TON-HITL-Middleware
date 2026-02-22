@@ -1,0 +1,22 @@
+{
+  "name": "ton-hitl-middleware",
+  "version": "1.0.0",
+  "description": "Human-in-the-Loop approval system for TON blockchain AI agents",
+  "main": "dist/agent/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agent/index.js",
+    "dev": "ts-node src/agent/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@ton/mcp": "^0.1.12",
+    "dotenv": "^16.6.1",
+    "grammy": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
